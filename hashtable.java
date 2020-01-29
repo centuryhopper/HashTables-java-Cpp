@@ -16,7 +16,7 @@ public class hashtable
     // amount of values allowed to be in the hashtable
     int amount;
 
-    ArrayList<LinkedList<Integer>> myArray;
+    private ArrayList<LinkedList<Integer>> myArray;
 
     // creates an arraylist with "capacity" number of linkedlists
     hashtable(int capacity)
